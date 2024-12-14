@@ -12,7 +12,9 @@
     "check-code": "prettier --check .",
     "format": "prettier --write .",
     "test": "jest --watch",
-    "test-coverage": "jest --coverage --verbose"
+    "test-coverage": "jest --coverage --verbose",
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@types/node": "22.10.2",
