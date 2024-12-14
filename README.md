@@ -9,8 +9,6 @@ This is a fully functional clone of the popular 2048 game, built using React and
 
 If you're interested in mastering React by building this game step-by-step, check out the course linked below!
 
-[![](.docs/demo.gif)](https://mateuszsokola.github.io/2048-in-react/)
-
 ## [Play 2048 💥](https://mateuszsokola.github.io/2048-in-react/)
 
 ## Features
