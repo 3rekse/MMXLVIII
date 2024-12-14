@@ -6,69 +6,30 @@ import styles from "@/styles/index.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.twenty48}>
+    <div className={styles.twenty48} style={{ backgroundColor: 'black', color: 'white' }}>
       <Head>
-        <title>Play 2048</title>
+        <title>MMXLVIII</title>
         <meta
           name="description"
           content="Fully-functional 2048 game built in NextJS and TypeScript. Including animations."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="favicon.ico" />
+        <link rel="icon" href="ccla.svg" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href="apple-touch-icon.png"
+          href="ccla.svg"
         />
-        <link rel="icon" type="image/png" sizes="32x32" href="favicon32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="favicon16.png" />
+        <link rel="icon" type="image/svg+xml" sizes="32x32" href="ccla.svg" />
+        <link rel="icon" type="image/svg+xml" sizes="16x16" href="ccla.svg" />
       </Head>
       <header>
-        <h1>2048</h1>
+        <h1>MMXLVIII</h1>
         <Score />
       </header>
       <main>
         <Board />
       </main>
-      <div>
-        <h2>🚀 Create your own game</h2>
-        <p>
-          Join my{" "}
-          <a
-            href="https://assets.mateu.sh/r/github-2048-in-react-readme"
-            target="_blank"
-            rel="noopener"
-          >
-            Udemy course
-          </a>{" "}
-          and learn how to create the 2048 game from scratch.
-        </p>
-      </div>
-      <footer>
-        <div className={styles.socials}>
-          <a
-            href="https://github.com/mateuszsokola/2048-in-react"
-            target="_blank"
-            rel="noopener"
-          >
-            <Image
-              src="social-github.svg"
-              alt="2048-in-react on GitHub"
-              width={32}
-              height={32}
-            />
-          </a>
-          <a href="https://twitter.com/msokola" target="_blank" rel="noopener">
-            <Image
-              src="social-twitter.svg"
-              alt="Matéush on Twitter"
-              width={32}
-              height={32}
-            />
-          </a>
-        </div>
-        <div>Made with ❤️ by Matéush</div>
-      </footer>
     </div>
   );
 }
