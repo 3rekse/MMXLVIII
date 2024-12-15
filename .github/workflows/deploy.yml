@@ -25,7 +25,10 @@ jobs:
 
     - name: Build project
       run: npm run build  # Adatta questo comando al tuo progetto (es. `npm run build` per Next.js/React)
-
+    
+    - name: Export static site
+      run: npm run export  # Questo comando è specifico per Next.js
+  
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4
       with:
