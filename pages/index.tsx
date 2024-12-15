@@ -20,15 +20,14 @@ export default function Home() {
           sizes="180x180"
           href="ccla.svg"
         />
-        <link rel="icon" type="image/svg+xml" sizes="32x32" href="ccla.svg" />
-        <link rel="icon" type="image/svg+xml" sizes="16x16" href="ccla.svg" />
       </Head>
       <header>
         <h1>MMXLVIII</h1>
         <Score />
       </header>
       <main>
-        <Board />
+        
+        <Board /> 
       </main>
     </div>
   );
